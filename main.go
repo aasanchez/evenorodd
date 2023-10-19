@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	values := genSlice(100)
+	values := genSlice(7)
 	// values.print()
 	printOddOrEven(values)
 }
