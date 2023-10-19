@@ -33,6 +33,6 @@ func (v value) isOddOrEven() string {
 
 func printOddOrEven(s slice) {
 	for i := 0; i < len(s); i++ {
-		fmt.Printf("%02v\t ===> \t %02v \n", s[i], s[i].isOddOrEven())
+		fmt.Printf("%v\t===> %s \n", s[i], s[i].isOddOrEven())
 	}
 }
